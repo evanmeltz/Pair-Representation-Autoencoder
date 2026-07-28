@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pair-representation-autoencoder"
+version = "0.1.0"
+description = "A row-and-column attention autoencoder for compressing protein pair representations."
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0",
+    "mmengine>=0.10",
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "tensorboard>=2.14",
+    "protenix",
+]
+
+[tool.setuptools.packages.find]
+include = ["compressor*"]
