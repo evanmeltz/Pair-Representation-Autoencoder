@@ -13,7 +13,6 @@ dependencies = [
     "numpy>=1.24",
     "pandas>=2.0",
     "tensorboard>=2.14",
-    "protenix",
 ]
 
 [tool.setuptools.packages.find]
