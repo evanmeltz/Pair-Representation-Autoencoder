@@ -1,5 +1,5 @@
 # Pair-Representation-Autoencoder
-A Pairformer-based autoencoder for compressing interchain pair representations produced by AlphaFold 3 (AF3) or RoseTTAFold 3 (RF3) trunks.
+A Pairformer-based autoencoder for compressing interchain pair representations produced by AlphaFold 3 or RoseTTAFold 3 trunks.
 
 Developed by Evan Meltzer as an undergraduate research project in the Baker Lab at the University of Washington.
 
